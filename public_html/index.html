@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Tema Simples Bootstrap</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <style>
+            .sticky {
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+            .fundo1 {
+                background-color: turquoise;
+                color: #ffffff;
+                padding-top: 75px;
+                padding-bottom: 75px;
+            }
+            .fundo2 {
+                background-color: slategray;
+                color: #ffffff;
+                padding-top: 75px;
+                padding-bottom: 75px;
+            }
+            .fundo3 {
+                background-color: whitesmoke;
+                color: #000000;
+                padding-top: 75px;
+                padding-bottom: 75px;
+            }
+        </style>
+    </head>
+    <body>  
+        <nav class="navbar navbar-inverse sticky">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#">Schrodinger</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Início</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Coisas Legais <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://www.youtube.com/watch?v=xmxEuQXTHUU" target="blank">Música</a></li>
+                                <li><a href="https://store.steampowered.com/app/801630/UNDER_NIGHT_INBIRTH_ExeLateclr/" target="blank">Jogo</a></li>
+                                <li><a href="https://www.amazon.com.br/Re-Zero-Come%C3%A7ando-Outro-Mundo/dp/8583621349/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1HOIZH54Z565T&keywords=re+zero&qid=1683839916&sprefix=re+z%2Caps%2C393&sr=8-1" target="blank">Livro</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Nada</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=qtM83BAbVJI" target="blank">Cachorro Arrombado</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Cadastre-se</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid text-center fundo1">
+            <h3>Inicial</h3>
+            <img src="img/figura.jpg" class="img-circle" alt="Passaro">
+            <h3>Seja Bem Vindo!</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+        <div class="container-fluid text-center fundo2">
+            <h3>O que eu faço?</h3>
+            <p>
+                Nada. <br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>
+                <a href="https://twitter.com/KaroshiMyriad/status/1656180977314701312" class="btn btn-info btn-lg" target="blank"> <span class="glyphicon glyphicon-send"></span> Email</a>
+            </p>
+        </div>
+        <div class="container-fluid text-center fundo3">
+            <h3>Onde me encontrar?</h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <img src="img/imagem1.jpg" class="img-responsive" style="width: 100%" alt="Imagem 1">
+                </div>
+                <div class="col-sm-4">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <img src="img/imagem2.jpg" class="img-responsive" style="width: 100%" alt="Imagem 2">
+                </div>
+                <div class="col-sm-4">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <img src="img/imagem3.jpg" class="img-responsive" style="width: 100%" alt="Imagem 3">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
